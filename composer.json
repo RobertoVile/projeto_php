@@ -1,0 +1,23 @@
+{
+    "name": "roberto-manuel-santos-s/atividadepratica1",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "Model/",
+            "RobertoManuelSantosS\\Atividadepratica1\\": "App/",
+            "Controller\\": "Controller/",
+            "Config\\": "Config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "roberto manuel santos silva"
+        }
+    ],
+
+
+    "files":[
+            "assets/configurations.php",
+            "assets/database.php"
+    ],
+    "require": {}
+}

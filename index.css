@@ -1,0 +1,112 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+h1{
+    text-align:center;
+    font-size: 600%;
+    color:red;
+    
+}
+
+
+.start{
+    height:800px;
+    width:800px;
+    border: 2px solid red;
+    position:absolute;
+    margin:300px 100px -500px;
+    visibility:visible;
+}
+
+header{
+    background-image: url('nighr.jpeg');
+    text-align:center;
+    font-size:90px;
+    color:purple;
+}
+
+
+
+.bg{
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.OB1{
+    position:absolute;
+    bottom:0;
+    width: 70px;
+    right:0;
+    animation-name: OB1-animation;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:paused;
+}
+
+
+
+#koku{
+    height:100px;
+    position:absolute;
+    bottom:0px;
+}
+
+.G{
+    position:absolute;
+    margin:50px 100px -500px;
+    height:600px;
+    visibility:hidden;
+}
+
+.jump{
+    animation-name: jump;
+    animation-duration:600ms;
+    animation-timing-function:ease-out;
+}
+
+ @keyframes OB1-animation {
+     
+    from{
+    right: 0%;
+    }
+     to
+     {
+     right:100%;
+     }
+ }
+ 
+ @keyframes jump{
+     0%{
+         bottom:0px;
+     }
+     40%{
+         bottom:240px;
+     }
+     50%{
+         bottom:180px;
+     }
+     
+     60%{
+         bottom:170px;
+     }
+     70%{
+         bottom:160px;
+     }
+     80%{
+         bottom:150px;
+     }
+     90%{
+         bottom:140px;
+     }
+     100%{
+         bottom:0;
+   
+ }
+ }

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../img/fundo.gif');
+  background-size: cover;       
+  background-repeat: no-repeat;  
+  background-position: center;    
+  background-attachment: fixed;   
+}
+
+
+.main-container {
+      min-height: 100vh;
+    }
+
+.responsive-image {
+      max-width: 90vw;
+      max-height: 80vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+form{
+  background-color: #FAFAFA; 
+}
+

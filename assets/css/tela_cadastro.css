@@ -1,0 +1,12 @@
+.inner-addon { position: relative; }
+.inner-addon .bi {
+      position: absolute;
+      left: 0; top: 50%;
+      transform: translateY(-50%);
+      padding: 0 0.75rem;
+      border-right: 1px solid #ced4da;
+      color: #495057;
+      font-size: 1.2rem;
+      pointer-events: none;
+    }
+.inner-addon .form-control { padding-left: 3rem; }
